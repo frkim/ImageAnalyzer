@@ -1,0 +1,10 @@
+python-dotenv
+openai
+langchain
+langchain-openai
+langchain-community
+streamlit
+streamlit_chat
+
+duckduckgo-search
+piexif

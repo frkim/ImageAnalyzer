@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python:Streamlit simple-chat",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "simple-chat.py",
+                "--server.port",
+                "8888"
+            ]
+        },
+        {
+            "name": "Python:Streamlit image-analyzer",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "image-analyzer.py",
+                "--server.port",
+                "8888"
+            ]
+        }    ]
+}
